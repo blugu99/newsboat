@@ -119,8 +119,8 @@ void print_usage(const std::string& argv0, const std::string& config_path,
 	std::cout << '\n';
 
 	std::cout << _("Files:") << '\n';
-	const std::string tr_config = _("config");
-	const std::string tr_urls = _("urls");
+	const std::string tr_config = _("configuration");
+	const std::string tr_urls = _("feed URLs");
 	const std::string tr_cache = _("cache");
 	const auto widest = std::max({tr_config.length(), tr_urls.length(), tr_cache.length()});
 
